@@ -71,4 +71,7 @@ public class OrderProducer {
         System.out.println("feature5commit1");
     }
 
+    public void hello(){
+        System.out.println("Hello from OrderProducer");
+    }
 }
