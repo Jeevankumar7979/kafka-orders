@@ -61,4 +61,10 @@ public class OrderProducer {
         System.out.println("Event produced");
     }
 
+    public void sendError(){
+        kafkaTemplate.send(TOPIC,
+                new OrderEvent("order-123", 1, "ErrorEvent", Instant.now()));
+        System.out.println("Error Event produced");
+    }
+
 }
