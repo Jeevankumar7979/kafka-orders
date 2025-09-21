@@ -74,4 +74,9 @@ public class OrderProducer {
     public void hello(){
         System.out.println("Hello from OrderProducer");
     }
+
+    public void feature7() {
+        System.out.println("Feature 7 implementation");
+        System.out.println("Feature 7 additional log");
+    }
 }
