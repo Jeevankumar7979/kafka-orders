@@ -67,4 +67,8 @@ public class OrderProducer {
         System.out.println("Error Event produced");
     }
 
+    public void feature5commit1(){
+        System.out.println("feature5commit1");
+    }
+
 }
