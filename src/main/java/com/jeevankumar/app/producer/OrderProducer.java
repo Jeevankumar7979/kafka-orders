@@ -55,4 +55,10 @@ public class OrderProducer {
         System.out.println("Completed processing order with partition key: " + orderId);
     }
 
+    public void send(){
+        kafkaTemplate.send(TOPIC,
+                new OrderEvent("order-123", 1, "OrderPlaced", Instant.now()));
+        System.out.println("Event produced");
+    }
+
 }
