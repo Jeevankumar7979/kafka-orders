@@ -100,4 +100,11 @@ public class OrderProducer {
         System.out.println("Feature 11 implementation");
         System.out.println("Feature 11 additional log");
     }
+
+    public void feature10() {
+        System.out.println("Feature 10 implementation");
+        System.out.println("Feature 10 additional log");
+    }
+
+
 }
