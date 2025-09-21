@@ -54,4 +54,5 @@ public class OrderProducer {
                 new OrderEvent(orderId, 4, "OrderDelivered", Instant.now()));
         System.out.println("Completed processing order with partition key: " + orderId);
     }
+
 }
